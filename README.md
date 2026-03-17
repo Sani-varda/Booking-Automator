@@ -21,7 +21,7 @@ Local MedSpas lose nearly **40% of potential bookings** due to missed calls afte
 ## 🛠️ Tech Stack
 
 -   **Backend:** FastAPI (Python 3.11)
--   **AI Engine:** OpenAI GPT-4o-mini (Luxury MedSpa Persona)
+-   **AI Engine:** Google Gemini 2.0 Flash (Luxury MedSpa Persona)
 -   **Database:** PostgreSQL (Containerized)
 -   **Mobile:** Flutter (iOS & Android)
 -   **Integrations:** Twilio (SMS), Calendly/GoHighLevel (Booking)
@@ -33,7 +33,7 @@ Local MedSpas lose nearly **40% of potential bookings** due to missed calls afte
 
 ```text
 ├── src/
-│   ├── backend/          # FastAPI API, Webhooks, AI Logic
+│   ├── backend/          # FastAPI API, Webhooks, AI Logic (Gemini)
 │   ├── frontend/         # Next.js Lead Dashboard (Admin UI)
 │   └── mobile/           # Flutter Cross-Platform Application
 ├── specs/                # PRD and Technical Architecture
@@ -47,7 +47,7 @@ Local MedSpas lose nearly **40% of potential bookings** due to missed calls afte
 
 ### 1. Prerequisites
 - Docker & Docker Compose installed.
-- OpenAI API Key.
+- Google Gemini API Key.
 - Twilio Account (for SMS testing).
 
 ### 2. Environment Setup

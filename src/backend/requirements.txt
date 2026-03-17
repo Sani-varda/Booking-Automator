@@ -6,4 +6,4 @@ python-dotenv
 sqlalchemy
 psycopg2-binary
 twilio
-openai
+google-generativeai

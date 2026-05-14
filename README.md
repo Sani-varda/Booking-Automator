@@ -1,4 +1,4 @@
-# 🤵 MedSpa Booking Automator
+# Booking Automator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
@@ -8,7 +8,7 @@ A production-grade, AI-powered micro-SaaS designed to convert missed calls into 
 
 ---
 
-## 🚀 The Mission
+## The Mission
 
 Local MedSpas lose nearly **40% of potential bookings** due to missed calls after hours or during peak times. The **MedSpa Booking Automator** solves this by:
 1.  **Detecting** missed calls via Twilio/VAPI.
@@ -18,7 +18,7 @@ Local MedSpas lose nearly **40% of potential bookings** due to missed calls afte
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 -   **Backend:** FastAPI (Python 3.11)
 -   **AI Engine:** Google Gemini 2.0 Flash (Luxury MedSpa Persona)
@@ -29,7 +29,7 @@ Local MedSpas lose nearly **40% of potential bookings** due to missed calls afte
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── src/
@@ -43,7 +43,7 @@ Local MedSpas lose nearly **40% of potential bookings** due to missed calls afte
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ### 1. Prerequisites
 - Docker & Docker Compose installed.
@@ -64,7 +64,7 @@ The API will be available at `http://localhost:8000`.
 
 ---
 
-## 🤖 AI Agent Workflow
+## AI Agent Workflow
 
 The system uses a custom **Luxury MedSpa Triage Agent** with the following logic:
 1.  **Acknowledge:** "Hi! We noticed we just missed your call. How can we help you today?"
@@ -74,7 +74,7 @@ The system uses a custom **Luxury MedSpa Triage Agent** with the following logic
 
 ---
 
-## 📱 Mobile App (Flutter)
+## Mobile App (Flutter)
 
 The accompanying mobile application allows MedSpa owners to:
 -   Monitor real-time AI conversations.
@@ -84,7 +84,7 @@ The accompanying mobile application allows MedSpa owners to:
 
 ---
 
-## 📈 Roadmap
+## Roadmap
 
 - [x] Phase 1: Architecture & Docker Setup
 - [x] Phase 2: AI Triage Logic & Twilio Webhooks
@@ -96,9 +96,9 @@ The accompanying mobile application allows MedSpa owners to:
 
 ---
 
-## 🤝 Contribution
+## Contribution
 
-This project is part of the **MoonLIT Arc** suite. For internal updates, contact the Lead Developer (**Alfred**).
+This project is part of the **ML Arc** suite. For internal updates, contact the Lead Develope (Sani Varada).
 
 ---
 
